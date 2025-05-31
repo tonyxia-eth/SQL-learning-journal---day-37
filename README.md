@@ -59,3 +59,42 @@ SELECT
     SUM(female) AS female
 FROM census;
 
+
+
+🔎 Additional Analysis (Ideas)
+Gender Ratio by District
+ROUND(male * 1.0 / female, 2) to identify imbalance hotspots
+
+Average Household Size
+ROUND(population * 1.0 / households, 2) to assess density and resource demand
+
+📁 Files
+0.sql – SQL script used to query the dataset
+
+nepal_population_by_district.csv – Cleaned dataset output
+
+(Optional: Tableau / Power BI dashboards to follow)
+
+📌 Insights
+Kathmandu is the most populous district, with over 2 million residents.
+
+Rural districts like Manang and Mustang have very low population densities.
+
+Gender ratios and household sizes vary significantly between districts, providing rich ground for further data exploration.
+
+🧠 Skills Demonstrated
+SQL querying using SQLite
+
+Data extraction with .mode and .output
+
+Data cleaning and filtering (WHERE population IS NOT NULL)
+
+Preparing raw data for BI tools
+
+💬 Contact
+Built by Tony Xia — aspiring Data Analyst / Junior Data Engineer
+
+https://www.linkedin.com/in/tony-xia-4b9201237/
+
+    
+
